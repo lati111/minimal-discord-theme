@@ -31,7 +31,7 @@ div[class^="channelTextArea"] {
     }
 
     div[class^="buttons_"] { /* remove useless buttons */
-        height: 32px !important;
-        /* display: none; */
+        /* height: 32px !important; */
+        display: none;
     }
 }
