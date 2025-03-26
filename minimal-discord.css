@@ -54,3 +54,19 @@ section[aria-label="User area"] {
         display: none;
     }
 }
+
+/* Avatar area */
+div[class^="container_"]:has(div[class^="avatarWrapper_"]) {
+    padding: 0 8px;
+
+    div[class^="avatarWrapper_"] {
+        div[role="img"] {
+            width: 30px !important;
+            height: 30px !important;
+
+            svg {
+                height: 40px;
+            }
+        }
+    }
+}
