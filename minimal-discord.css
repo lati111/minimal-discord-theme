@@ -45,4 +45,12 @@ section[aria-label="User area"] {
     button[aria-label="Noise Suppression powered by Krisp"] { /* Remove krisp button */
         display: none;
     }
+
+    button[aria-label="Start An Activity"] { /* Remove activity button */
+        display: none;
+    }
+
+    div:has(> button[aria-label="Open Soundboard"]) { /* Remove activity button */
+        display: none;
+    }
 }
