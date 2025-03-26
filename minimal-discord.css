@@ -35,3 +35,14 @@ div[class^="channelTextArea"] {
         display: none;
     }
 }
+
+/* User area */
+section[aria-label="User area"] {
+    left: var(--custom-guild-list-width) !important;
+    width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) - 12px) !important;
+    margin: 0 6px 0 6px;
+
+    button[aria-label="Noise Suppression powered by Krisp"] { /* Remove krisp button */
+        display: none;
+    }
+}
